@@ -47,7 +47,7 @@ module Net; module SFTP
     include Net::SFTP::Constants::PacketTypes
 
     # The highest protocol version supported by the Net::SFTP library.
-    HIGHEST_PROTOCOL_VERSION_SUPPORTED = 6
+    HIGHEST_PROTOCOL_VERSION_SUPPORTED = 3
 
     # A reference to the Net::SSH session object that powers this SFTP session.
     attr_reader :session
